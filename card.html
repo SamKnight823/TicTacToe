@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body class="justify-content-md-center text-light bg-secondary"><br><br>
+<div class="container text-center">
+    <div class="row justify-content-md-center">
+        <div class="col-2">
+            <h3 class = "border border-info play" id="X">Player X Go!</h3>
+        </div>
+        <div class="col-3">
+            <div class = "container text-center">
+            <h1>Play Tic Tac Toe</h1>
+                <div class = "row justify-content-md-center mb-4" style="height: 100px;">
+                    <div class="scene scene--card">
+                        <div class="card" id="card1">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not">O</div>
+                        </div>
+                    </div>
+                    <div class="scene scene--card" >
+                        <div class="card" id="card2">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not2">O</div>
+                        </div>
+                    </div>
+                    <div class="scene scene--card" >
+                        <div class="card" id="card3">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not3">O</div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row justify-content-md-center mb-4" style="height: 100px;">
+                    <div class="scene scene--card" >
+                        <div class="card" id="card4">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not4">O</div>
+                        </div>
+                    </div>
+                    <div class="scene scene--card" >
+                        <div class="card" id="card5">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not5">O</div>
+                        </div>
+                    </div>
+                    <div class="scene scene--card" >
+                        <div class="card" id="card6">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not6">O</div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row justify-content-md-center" style="height: 100px;">
+                    <div class="scene scene--card" >
+                        <div class="card" id="card7">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not7">O</div>
+                        </div>
+                    </div>
+                    <div class="scene scene--card" >
+                        <div class="card" id="card8">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not8">O</div>
+                        </div>
+                    </div>
+                    <div class="scene scene--card" >
+                        <div class="card" id="card9">
+                        <div class="card__face card__face--front">click</div>
+                        <div class="card__face card__face--back" id = "not9">O</div>
+                        </div>
+                    </div>
+                </div><br>
+                <button type="button" class="btn border border-light text-light" id = "reset">Play Again</button>
+            </div><br>
+        
+            <div class="row justify-content-md-center">
+                <div class="co alert alert-info alert-dismissible fade show" role="alert">
+                    <strong>Let's Play</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>  
+        </div>      
+        <div class="col-2">
+            <h3 class = "border border-info play" id="O">Player O Go!</h3>
+        </div>        
+    </div>
+</div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="card.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
